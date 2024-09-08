@@ -1,0 +1,5 @@
+#! /usr/bin/env ruby
+
+$stdin.each do |line|
+  puts line
+end
