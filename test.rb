@@ -3,7 +3,7 @@ describe 'database' do
     def run_script(commands)
 
       raw_output = nil
-      IO.popen("./db2", "r+") do |pipe|
+      IO.popen("./db3", "r+") do |pipe|
         commands.each do |command|
           pipe.puts command
         end
